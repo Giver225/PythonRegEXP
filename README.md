@@ -1,4 +1,3 @@
-# PythonRegEXP
 import math
 
 
@@ -12,6 +11,9 @@ def main(z, x, y):
         s += (3 * z[math.ceil(i / 4)] ** 2 + y[math.ceil(i / 2)] +
               28 * x[n + 1 - math.ceil(i / 3)] ** 3) ** 6 / 96
     return s
+    
+    
+    
 ИЛИ СМОТРИ ФАЙЛ В ЭТОМ РЕПОЗИТОРИИ
 
 ![image](https://user-images.githubusercontent.com/85654567/173178848-5419b181-edba-4ea2-862f-47dedc759880.png)
